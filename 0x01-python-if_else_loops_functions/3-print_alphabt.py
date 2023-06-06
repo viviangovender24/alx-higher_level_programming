@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for leters in range(97, 123):
-    if chr(leters) is not 'e' and chr(leters) is not 'q':
-        print("{}".format(chr(leters)), end="")
+for leters in range(ord('a'), ord('z') + 1):
+    if chr(leters) != 'q' and chr(leters) != 'e':
+        print("{:c}".format(a), end='')
