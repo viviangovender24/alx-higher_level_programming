@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     # addition arguments
     import sys
-    total = 0
+    tot = 0
     for i in range(len(sys.argv) - 1):
-        total += int(sys.argv[i + 1])
-    print("{}".format(total))
+        tot += int(sys.argv[i + 1])
+    print("{}".format(tot))
